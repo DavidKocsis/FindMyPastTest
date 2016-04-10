@@ -1,0 +1,9 @@
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\findMyPastTest.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\findMyPastTest.pdb
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\UnitTests\obj\Debug\UnitTests.pdb

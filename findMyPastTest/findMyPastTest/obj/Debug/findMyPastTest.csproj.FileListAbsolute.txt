@@ -1,0 +1,4 @@
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\findMyPastTest\bin\Debug\findMyPastTest.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\findMyPastTest\bin\Debug\findMyPastTest.pdb
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\findMyPastTest\obj\Debug\findMyPastTest.dll
+C:\Users\Dave\Desktop\FindMyPastTest\FindMyPastTest\findMyPastTest\findMyPastTest\obj\Debug\findMyPastTest.pdb
