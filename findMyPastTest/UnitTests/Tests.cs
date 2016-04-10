@@ -17,7 +17,7 @@ namespace UnitTests
         {
             int inputNumber = 25;
             var result = getPrimes.GetNumbersBelowSquareRoot(inputNumber);
-            Assert.AreEqual(result.Count(),5);
+            Assert.AreEqual(result.Count(),4);
         }
 
         [Test]
@@ -25,24 +25,31 @@ namespace UnitTests
         {
             int inputNumber = 37;
             var result = getPrimes.GetNumbersBelowSquareRoot(inputNumber);
-            Assert.AreEqual(result.Count(), 6);
+            Assert.AreEqual(result.Count(), 5);
         }
 
         [Test]
         public void CheckNumberIsPrimeReturnsFalseWhenNumberIsNotPrime()
         {
-            int numberToTest = 25;
+            int numberToTest = 4;
             var result = getPrimes.IsNumberPrime(numberToTest);
             Assert.IsFalse(result);
         }
 
         [Test]
-        public void CheckNumberIsPrimeReturnsFalseWhenNumberIsPrime()
+        public void CheckNumberIsPrimeReturnsTrueWhenNumberIsPrime()
         {
-            int numberToTest = 37;
+            int numberToTest = 3;
             var result = getPrimes.IsNumberPrime(numberToTest);
-            Assert.IsFalse(result);
+            Assert.IsTrue(result);
         }
 
+        [Test]
+        public void GetCorrectPrimeNumbers()
+        {
+            var result = getPrimes.GetPrimeNumbers(3);
+            Assert.AreEqual(result[0], 2);
+            Assert.AreEqual(result[2], 5);
+        }
     }
 }
