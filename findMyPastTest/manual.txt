@@ -1,0 +1,9 @@
+- Instruction for running
+the application is a console app which you can run from visual studio.
+
+I am pleased with the implemetation of finding prime numbers as I think the code is very modular and would be easy to expand
+
+If I had more time I would try to increase the performnce of the app by:
+
+-when doing the multiplication applications I would store them in a list or a dictionary so that we wont have to redo the multiplication for the second number.
+-Store prime numbers that we already found. This can help make the prime number checking algorithm more efficient. This is because currently we get the square root of the number we are checking and then check if the number is divisible by any of the numbers below the square root. This can be more efficient by only checking prime numbers below the square root. 
