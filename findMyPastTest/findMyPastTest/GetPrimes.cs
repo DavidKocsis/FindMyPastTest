@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace findMyPastTest
 {
-    public class GetPrimes
+    public static class GetPrimes
     {
-        public List<double> GetNumbersBelowSquareRoot(int number)
+        public static List<double> GetNumbersBelowSquareRoot(int number)
         {
             var squareroot = Math.Sqrt(number);
             int count = 2;
             var numbers = new List<double>{2};
             
-            while (count <Math.Round(squareroot))
+            while (count <=Math.Round(squareroot))
             {
                 numbers.Add(count);
                 count++;
@@ -23,7 +23,7 @@ namespace findMyPastTest
             return numbers;
         }
 
-        public bool IsNumberPrime(int numberToTest)
+        public static bool IsNumberPrime(int numberToTest)
         {
             var numbers = GetNumbersBelowSquareRoot(numberToTest);
 
@@ -42,7 +42,7 @@ namespace findMyPastTest
             return true;
         }
 
-        public List<int> GetPrimeNumbers(int input)
+        public static List<int> GetPrimeNumbers(int input)
         {
             var primeNumbers = new List<int>();
             int numberTocheck = 2;
